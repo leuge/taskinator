@@ -321,6 +321,13 @@ var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
+//HELP
+var loadTasks = function() {
+  if (tasks[i].id === "null"
+   {
+    tasks[i].status = statusSelectEl.value.toLowerCase();
+  }
+}
 
 pageContentEl.addEventListener("click", taskButtonHandler);
 pageContentEl.addEventListener("change", taskStatusChangeHandler);
